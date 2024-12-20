@@ -1,0 +1,166 @@
+.body {
+  background-color: #f5f5f5;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  position: relative;
+}
+.header {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.hamburger-button,
+.search-button,
+.close-button {
+  border: 0;
+  margin: 12px;
+  background-color: white;
+}
+.app-logo {
+  width: 30px;
+}
+.separator {
+  flex-grow: 1;
+}
+.create-account-button {
+  background-color: white;
+  border-radius: 5px;
+  border-color: #3b49df;
+  border-width: 1px;
+  color: #3b49df;
+  padding: 10px 12px;
+  margin: 10px 5px 10px 5px;
+  font-size: medium;
+}
+.dimmed {
+  background-color: rgba(0, 0, 0, 0.507);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.side-nav {
+  width: 240px;
+  min-height: 100vh;
+  position: fixed;
+  overflow: scroll;
+  background-color: white;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.hidden {
+  display: none;
+}
+.close-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+h1 {
+  margin: 20px;
+  font-size: large;
+  padding-bottom: 10px;
+  display: block;
+  font-weight: bold;
+}
+.filler-text {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 20px;
+  margin: 0 10px;
+}
+.bold-filler-text {
+  font-weight: bold;
+}
+.normal-filler-text {
+  color: rgba(0, 0, 0, 0.582);
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+.login-button {
+  background-color: white;
+  border: none;
+  font-size: medium;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+}
+.side-nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+}
+.social-link {
+  margin: 20px;
+}
+.section-navigation {
+  margin: 70px 0 15px 0;
+}
+.section {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.623);
+  padding: 10px;
+  font-size: large;
+}
+.active-section {
+  font-weight: bolder;
+  color: black;
+}
+.article-banner {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.article-card {
+  background-color: white;
+  margin: 20px 0;
+}
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+.user-image {
+  border-radius: 50%;
+  width: 32px;
+  margin: 10px;
+  object-fit: cover;
+}
+.article-header {
+  margin: 10px;
+  font-size: large;
+}
+.tag {
+  font-size: small;
+  color: black;
+  min-width: 25%;
+  margin-left: 10px;
+  word-break: break-all;}
+.articles-container {
+  width: 100vw;
+}
+.user-date {
+  margin: 10px 10px 0 0;
+  color: rgba(0, 0, 0, 0.555);
+}
