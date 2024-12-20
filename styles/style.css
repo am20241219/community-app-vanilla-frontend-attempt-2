@@ -151,11 +151,14 @@ h1 {
   margin: 10px;
   font-size: large;
 }
+.tags{
+    margin: 10px;
+}
 .tag {
   font-size: small;
   color: black;
   min-width: 25%;
-  margin-left: 10px;
+  margin-right: 10px;
   word-break: break-all;}
 .articles-container {
   width: 100vw;
