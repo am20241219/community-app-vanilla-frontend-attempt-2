@@ -151,15 +151,15 @@ h1 {
   margin: 10px;
   font-size: large;
 }
-.tags{
-    margin: 10px;
+.tags {
+  margin: 10px;
 }
 .tag {
   font-size: small;
   color: black;
-  min-width: 25%;
   margin-right: 10px;
-  word-break: break-all;}
+  display: inline-block;
+}
 .articles-container {
   width: 100vw;
 }
